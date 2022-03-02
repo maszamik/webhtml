@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Website Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+ 
+<body>
+    <section>
+        <!--- navigation --->
+        <nav>
+            <!-- logonya -->
+            <a href="index.html" class="logo">Websiteku</a>
+            <!--- menu --->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="hobi.html">Informasi Pribadi</a></li>
+				<li><a href="pendidikan.html">Pendidikan</a></li>
+                <li><a href="jadwalku.html">Jadwal Kuliah</a></li>
+                <li><a href="aktivitas.html">Aktivitas</a></li>
+            </ul>
+        </nav>
+ 
+        <!--- text index awal --->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>RIFQI ZAMZAMI</p>
+            <p>Selamat datang di website saya</p>
+        </div>
+        <!-- foto profile kanan -->
+        <img alt="model" class="model" src="gambar/aku.jpg">  
+    </section>
+ 
+    <!-- text bawah footer -->
+    <footer>
+        <p>Social Media Saya.</p>
+             
+        <!--paragraph-->
+        <p>Silahkan Klik Logo Dibawah ini.</p>
+        <!--icon sosial media-->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/zamik19277"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/zamikkk_/"><i class="fab fa-instagram"></i></a>
+        </div>
+         
+        <!--isi copyright-->
+        <p class="copyright">Copyright by Mik2022</p>
+    </footer>
+    </div>
+</body>
+ 
+</html>
